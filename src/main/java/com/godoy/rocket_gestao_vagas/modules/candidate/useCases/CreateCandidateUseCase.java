@@ -5,8 +5,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.godoy.rocket_gestao_vagas.exceptions.UserNotFoundException;
-import com.godoy.rocket_gestao_vagas.modules.candidate.CandidateEntity;
-import com.godoy.rocket_gestao_vagas.modules.candidate.CandidateRepository;
+import com.godoy.rocket_gestao_vagas.modules.candidate.entities.CandidateEntity;
+import com.godoy.rocket_gestao_vagas.modules.candidate.repositories.CandidateRepository;
 
 @Service
 public class CreateCandidateUseCase {
